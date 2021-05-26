@@ -1,15 +1,17 @@
-for T in range(int(input())):
-    N=int(input())
-    L=list(map(int,input().split()))
-    cnt=[L.count(-1),L.count(0),L.count(1)]
-    c=len(L)-sum(cnt)
-    if c>1:
-        print("no")
+try:
+ t = 
+ for T in range(int(input())):
+    s = int(input())
+    lst = list(map(int, input().split()))
+    
+    a = lst.count(0)
+    b = lst.count(1)
+    c = lst.count(-1)
+    d = s - (a+b+c)
+    
+    if(d>1 or (c>0 and d>0) or (c>1 and b==0)):
+        print('no')
     else:
-        if c and cnt[0]:
-            print("no")
-        elif cnt[0]>1 and cnt[2]==0:
-            print("no")
-        else:
-            print("yes")
-            
+        print('yes')
+except:
+    pass
