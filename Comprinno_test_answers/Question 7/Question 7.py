@@ -7,12 +7,12 @@ for T in range(int(input())):
         if L.count(L[i])>1:
             L2.append(L[i])
     #checking if there are sticks sufficient number of sticks to build a rectangle 
-    if len(l2)>3:
+    if len(L2)>3:
         #Sorting and Reversing so that higher length sticks can we used first
-        l2.sort()
-        l2.reverse()
+        L2.sort()
+        L2.reverse()
         #Finding the maximum possible area of the constructed rectangle
-        print(l2[0]*l2[3])
+        print(L2[0]*L2[3])
     else:
         #Otherwise, it is not possible to build rectangle with given no of higher length sticks
         print('-1')
