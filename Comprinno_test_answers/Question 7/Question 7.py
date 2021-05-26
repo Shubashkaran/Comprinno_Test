@@ -3,7 +3,7 @@ for T in range(int(input())):
     L=list(map(int,input().split()))
     L2=[]
     for i in range(len(L)):
-        #appending list values whose count in list L is high, so that we can use the sticks with higher length
+        #appending list values whose count in list L is high to L2, so that we can use the sticks with higher length
         if L.count(L[i])>1:
             L2.append(L[i])
     #checking if there are sticks sufficient number of sticks to build a rectangle 
