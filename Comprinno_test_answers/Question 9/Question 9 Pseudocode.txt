@@ -1,0 +1,7 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=10)
+3. For a loop in range 0 to T, take integer N and N-length array L to find maximum sum of costs of operations required to convert array into a single element 
+4. Perform all validity checks on N(2<=N<=50000) and L(1<=L<=105)
+5. Perform multiplication of minimum value in L (min(L)) and the size of L when only min(L) is present the L (n-1) which gives the minimum sum of costs of 
+operations required to convert array into a single element  
+

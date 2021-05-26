@@ -1,0 +1,6 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=50)
+3. For a loop in range 0 to T, take an integer N and N-length string L to check whether bear has followed has his parent's instructions or not
+4. Perform all validity checks on N(1<=L<=50)
+5. for a loop in range 0 to N-1, check if bear has drank milk after eating cookies (L[i]=="cookie" and L[i+1]=="milk"), then bear has followed parents instructions
+6. If bear has continuously eaten only cookies without drinking milk (L[i]=="cookie" and L[i+1]=="cookie"), then bear has not followed parents instructions    

@@ -1,0 +1,7 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=1000)
+3. For a loop in range 0 to T, take the integers S1, S2, S3 to check whether a order of elements exist such that i+1-th person is better than the i-th person
+4. Perform all validity checks on S1, S2, S3(1<=S1,S2,S3<=100)
+5. Form a list L by adding S1,S2,S3 in reverse order to it and sort the elements of L
+6. For each to i-th and i+1-th person in L, check if the order of people exist such that i+1-th person is better team than i-th person
+7. If i+1-th person doesn't score less than i-th person in any the skills and scores more than i-th person in atleast one of the skills, then i+1-th person is better than i-th person    

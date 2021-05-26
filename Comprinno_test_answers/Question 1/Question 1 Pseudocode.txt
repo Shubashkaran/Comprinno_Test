@@ -1,0 +1,10 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=10)
+3. For a loop in range 0 to T, take a string S to check whether it is dynamic or not
+4. Perform all validity checks on S(1<=|S|<=10^5)
+5. Transform S into a set C and remove all the duplicate values in the set C
+6. For a loop in range 0 to len(C), count the number of occurences of each element of C in the S and append it to list L
+7. If the number of distinct characters in S is smaller than 3, then S is dynamic string
+8. Sort the elements of L
+9. If any permutation of the elements of C satisfies f(ci)=f(ci-1)+f(ci-2) for all i>=3, then S is a dynamic string
+10. Otherwise S is not a dynamic string

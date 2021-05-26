@@ -1,0 +1,7 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=100)
+3. For a loop in range 0 to T, take integer A, B, N to find the integer division of maximum number among final C and D by the minimum number among final C and D
+4. Perform all validity checks on A (1<=A<=1000000000), B (1<=B<=1000000000), N (1<=N<=1000000000)
+5. Calculate and Store the multiplication of present A and 2 to the power of total number of Alice turns (A*(2**(math.ceil(N/2)))) in a variable C
+6. Calculate and Store the multiplication of present B and 2 to the power of total number of Bob turns (B*(2**(math.ceil(N/2)))) in a variable D
+7. Calculate the integer division of the maximum number among C and D by the minimum number among final C and D   

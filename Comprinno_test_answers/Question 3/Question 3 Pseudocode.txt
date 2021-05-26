@@ -1,0 +1,6 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=100)
+3. For a loop in range 0 to T, take integer N and N-length strip L to check whether it is a valid strip or not
+4. Perform all validity checks on N(3<=N<=100) and L(1<=L<=100)
+5. If a unique mid value is present (N%2==1), L[0] and L[N-1] is set to 1, elements on both sides of mid value are same (L[i]==L[n-1-i]), elements on the left side of mid value are in increasing order by 1 and elements on right side of mid value are in decreasing order by 1 (L[i]==L[i+1]-1), then L is called a valid strip 
+6. Otherwise, not a valid strip   

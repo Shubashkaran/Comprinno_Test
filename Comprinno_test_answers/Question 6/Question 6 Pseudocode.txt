@@ -1,0 +1,7 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=105)
+3. For a loop in range 0 to T, take integers C,D,L to find if leg count L touching the ground is correct or not
+4. Perform all validity checks on C,D,L(0<=C,D,L<=109)
+5. Find the maximum number of cats that can be placed on back of dogs (max(D,C-D)) and store in variable M
+6. If M*4 is less than or equal to L, L is less than or equal to (C+D)*4 and all animals have equal legs (L%4==0), then L touching the ground is correct
+7. Otherwise, the L touching the ground is not correct    

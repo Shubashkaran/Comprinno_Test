@@ -1,0 +1,7 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=1000)
+3. For a loop in range 0 to T, take a class id N to find the class to which it belongs and display the class description
+4. If N is either 'b' or 'B', then display Battleship class description 
+5. If N is either 'c' or 'C', then display Cruiser class description
+6. If N is either 'd' or 'D', then display Destroyer class description
+7. If N is either 'f' or 'F', then display Frigate class description   
