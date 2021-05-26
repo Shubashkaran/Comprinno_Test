@@ -1,0 +1,10 @@
+1. Take number of tests as input-T
+2. Perform all validity checks on T(1<=T<=100)
+3. For a loop in range 0 to T, take a an integer N and N-length list L to find whether rectangle from L values can be created or not. 
+If yes, then find the maximum possible area of the rectangle.
+4. Perform all validity checks on N(1<=N<=103) and L(1<=L<=103)
+5. For a loop in range 0 to N, if the count of elements in L is greater than 1, then append those elements to another list L2
+6. Check If there are sufficient sticks in L2 to build a rectangle
+7. If present, then sort and reverse L2 to use sticks with higher length first.
+8. Find the maximum possible area of the constructed rectangle (L2[0]*L2[3]) 
+9. Otherwise, return -1
