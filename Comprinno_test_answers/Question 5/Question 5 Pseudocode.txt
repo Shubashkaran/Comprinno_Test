@@ -1,0 +1,11 @@
+1. If runtime error occurs for any of the input, throw an exception  
+2. Take number of tests as input-T
+3. Perform all validity checks on T(1<=T<=106)
+4. For a loop in range 0 to T, take an integer N and N-length array L to check whether L is beautiful or not
+5. Perform all validity checks on N(1<=N<=105) and L(-109<=L<=109)
+6. Calculate the number of occurences of -1,0,1 in L and store in respective variables A,B,C
+7. Find and Store the number of elements in L which are not -1,0 or 1 in variable D
+8. If for every pair of numbers Li,Lj (i!=j) in a, there exist Lk=Li*Lj, then array is beautiful
+9. If D is greater than 1 or C is greater than 0 and D is greater than 0 or C is greater than 1 and B is equal to 0, then L is not beautiful
+10. Otherwise, L is beautiful
+11. Handle the exception
